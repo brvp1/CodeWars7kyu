@@ -1,0 +1,4 @@
+function longest(words) {
+  let length = words.map(element => element.length);
+  return Math.max(...length);
+}
